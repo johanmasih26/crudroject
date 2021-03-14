@@ -1,0 +1,5 @@
+{% extends "crud/main.html" %}{% block mainc %}
+<h5>update Form:</h5>
+<form action="" class="w-25 ml-5 mt-3" method="POST">
+    {% csrf_token %} {{form.as_p}} <input type="submit" value="Submit" class="btn btn-info">
+</form>{% endblock mainc %}
