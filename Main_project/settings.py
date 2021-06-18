@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'pogc5ot3qz^v8-!uzutu287mt%q=)i2_0!igzeg@cykafw$c$+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['crudroject.herokuapp.com','127.0.0.1']
 
 
 # Application definition
